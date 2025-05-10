@@ -1,0 +1,97 @@
+<html>
+	<title>BDSL</title>
+   <head>
+   <style>
+	 #a{
+	 color:white;
+    border:white;
+    background-color:red;
+    padding: 10px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+        }
+	#a:hover {
+  background-color: black;
+      }
+		
+	 a{
+	 color:white;
+	 }
+
+/* img tags */
+.imagesContainer {
+	width: 1300px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+figure {
+	margin-bottom: 60px;
+	
+}
+.imagesContainer img {
+	width: 1300px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left:0;
+	padding-left: 150px;
+	
+}
+
+/* images using CSS */
+.imageDiv {
+	position: center;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	background-size: cover;
+}
+
+/* animation styles */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	20% { opacity: 0; }
+	60% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+.fadeInClass {
+	animation-name: fadeIn;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+	</style>
+   </head>
+	<body align="center" bgcolor="black"> 
+		<br><br><br>
+		<table bgcolor="red">
+		 <font color="white">
+	    <button id="a"><a href="sample.html">HOME</a></button>
+		<button id="a">ABOUT US</button>
+		<button id="a">CONTACT</button>
+		<a href="1login.html"><button id="a">LOGIN</button></a>
+		<a href="1signup.html"><button id="a">SIGNUP</button></a>
+	 </font>
+	 </table>
+	<form method="post" action="." name="my">
+	<br>
+	<br>
+	<br>
+	<font color="white">
+    <center><h1>WEB PHISHING ATTACK DETECTION IN IOT</h1></center>
+    <label>ENTER WEBSITE:</label>
+    <input type="text" size="50" name ="n"><br>
+    <h1>{{n}}</h1>
+    <input type="submit" value="submit">
+    <br>
+    </form>
+	</font>
+</body>
+</html>

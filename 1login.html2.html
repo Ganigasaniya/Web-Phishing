@@ -1,0 +1,102 @@
+  <html>
+<head>
+<title>LOGIN</title>
+<style>
+.main {
+width: 500px;
+margin: 0 auto;
+padding: 30px 0;
+  font-size: 15px;
+}
+form {
+color:red;
+border-radius: 3px;
+margin-bottom: 10px;
+background: black;
+padding: 50px;
+}
+
+h1{
+color:RED;
+}
+body{
+background-image:url("https://wallpaperaccess.com/full/2512136.png");
+}
+
+a{
+ color:white;
+}
+#b{
+	 color:white;
+    border:none;
+    background-color:black;
+    padding: 10px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+        }
+#b:hover {
+  background-color: red;
+      }
+	.texting{
+	 position:absolute;
+	 top:17px;
+	 left:50px;
+	 }
+	 b
+	 {
+	 color:black;
+	 }
+</style>
+<script>
+function myvalidate()
+				{
+					var p1=document.myform.USER.value;
+					var p2=document.myform.NP.value;
+					if(p1==" "){
+					window.alert("Enter name");
+					return false;
+                    }
+                
+					if(p2.length<8)
+					{
+						window.alert("PassWord Must Contain minimum 8 Characters");
+						return false;
+					}
+				}
+					
+
+
+</script>
+</head>
+<body bgcolor="white" align="center">
+<button id="b"><a href="1+.html">HOME</a></button>
+		<button id="b"><a href="sample.html">PHONES</a></button>
+		<button id="b"><a href="sample1.html">TVS</a></button>
+		<button id="b">WEARABLES</button>
+		<button id="b">STORE</button>
+		<button id="b">OFFERS</button>
+		<button id="b"><a href="1login.html">LOGIN</a></button>
+		<button id="b"><a href="1signup.html">SIGN UP</a></button>
+<div class="main">
+<form name="myform" onsubmit="return myvalidate()" action="retrieve.jsp">
+<center><h1>LOGIN</h1></center>
+<div>
+<label>User Name:</label>
+<input type="text" name="USER" class="form-control" id="user" placeholder="User Name" size="50" autocomplete="off"><br>
+</div><br>
+<br>
+<div>
+<label>PASSWORD:</label>
+<input type="text" name="NP" class="password" placeholder="password" size="50" autocomplete="off">
+</div><br><br>
+<a href="#" style="font-size:17">forget password?</a>
+<a href="#"><input type="submit"></a>
+
+</form>
+
+
+</div>
+
+</body>
+</html>
